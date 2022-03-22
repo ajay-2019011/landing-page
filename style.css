@@ -45,14 +45,15 @@ body{
   font-weight: bolder;
 }
 .img1{
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  padding:20px;
+  align-items: center; */
+  padding:10px;
   color: #1F2937;
   background-color: #E5E7EB;
 }
 .links{
+  
   margin-left: auto;
   font-size: 18px;
   color:#F9FAF8;
@@ -69,6 +70,8 @@ ul{
   gap:20px;
 }
 a{
+  padding: 1px;
+  color: #F9FAF8;
   text-decoration: none;
 }
 .body1{
@@ -82,19 +85,23 @@ a{
   gap:30px;
 }
 .data{
-  width:140px;
+  
+  width:140px; 
   display: flex;
   flex-direction: column;
 }
 .img2{
-  width:132px;
-  height: 140px;
+  display:flex;
+  height:132px;
+  width: 140px;
   border-style: solid;
   border-width: 4px;
   border-color: #3882F6;
-  border-radius: 15px;;
+  border-radius: 10px;
 }
 .contain{
+  
+  width:140px;
   text-align: center;
   margin:10px 0;
 }
